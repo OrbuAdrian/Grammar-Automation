@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ProgramStructure">
+      <UniqueIdentifier>{c89c3378-d87c-413c-b52a-adf8c58810ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PushDownAutomata_Headers">
+      <UniqueIdentifier>{5ecbc65e-a6a6-40ce-9e93-aee4bc56f498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PushDownAutomata_Sources">
+      <UniqueIdentifier>{fb49a61b-b57b-4c7c-8c21-48685dfb54b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grammar_Headers">
+      <UniqueIdentifier>{83ec4cc2-95d8-42d3-b2e1-d8ba95e096db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grammar_Sources">
+      <UniqueIdentifier>{4d63b59e-d5ba-4849-87b5-26ff25534031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Table_Headers">
+      <UniqueIdentifier>{23fc4594-9c15-447f-9f8a-8b98d287088f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Table_Sources">
+      <UniqueIdentifier>{023fb6f8-42af-4bc2-84a8-680ebc64ea9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringSeparator.cpp">
+      <Filter>Source Files\ProgramStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar.cpp">
+      <Filter>Source Files\Grammar_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Productions.cpp">
+      <Filter>Source Files\Grammar_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Derivations.cpp">
+      <Filter>Source Files\Grammar_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AutomatPushDown.cpp">
+      <Filter>Source Files\PushDownAutomata_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTable.cpp">
+      <Filter>Source Files\PushDownAutomata_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpTable.cpp">
+      <Filter>Source Files\PushDownAutomata_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>Source Files\PushDownAutomata_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\Table_Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="STOS.cpp">
+      <Filter>Source Files\PushDownAutomata_Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="TabelaActiuni.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="TabelaSalt.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutomatPushDown.h">
+      <Filter>Header Files\PushDownAutomata_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSeparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar.h">
+      <Filter>Header Files\Grammar_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Productions.h">
+      <Filter>Header Files\Grammar_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Derivations.h">
+      <Filter>Header Files\Grammar_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpTable.h">
+      <Filter>Header Files\PushDownAutomata_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionTable.h">
+      <Filter>Header Files\PushDownAutomata_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.h">
+      <Filter>Header Files\PushDownAutomata_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Table_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="STOS.h">
+      <Filter>Header Files\PushDownAutomata_Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
